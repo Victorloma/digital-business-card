@@ -17,14 +17,16 @@ function App() {
           <h2>Web Developer</h2>
           <a href="https://github.com/Victorloma">website</a>
           <div className="button-group">
-            <button className="email"><img className="social-logo" src={EmailLogo} alt="email logo"/>Email</button>
-            <button className="linkedin"><img className="social-logo" src={LinkedInLogo} alt="linkedin logo"/>LinkedIn</button>
+            <button className="email"><img className="email-logo" src={EmailLogo} alt="email logo"/>Email</button>
+            <button className="linkedin"><img className="linkedin-logo" src={LinkedInLogo} alt="linkedin logo"/>LinkedIn</button>
           </div>
         </header>
-        <h3 className="about">About</h3>
-        <p>I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
-        <h3 className="Interests">Interests</h3>
-        <p>Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.</p>
+        <div className="text-container">
+          <h3 className="about">About</h3>
+          <p>I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
+          <h3 className="Interests">Interests</h3>
+          <p>Food lover. Sports enthusiast. Reader. Internet fanatic. Chicken fan. Entrepreneur. Travel geek. Economic ninja. Cocktail connaisseur.</p>
+        </div>
       </main>
       <footer className="footer">
         <img src={TwitterIcon} alt="The logo of Twitter" />
